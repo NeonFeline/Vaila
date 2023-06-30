@@ -1,0 +1,16 @@
+let x
+set x = @10
+let g
+set g = @2
+let h
+let c
+set c = @0
+set h = @0
+while g < x
+ set h = @0
+ while h < g
+  set h = h + @1
+  set c = g % h
+  print c
+ set g = g + @1
+print @0
